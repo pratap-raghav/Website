@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 15px; /* Increased padding around the tiles */
+  background-color: #6375d6;
+  font-family: Tahoma, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px; /* Increased gap between tiles */
+  box-sizing: border-box;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px; /* Increased gap between tiles */
+  width: 100%;
+  height: auto;
+}
+
+.thumb-card {
+  background: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid #808080;
+  border-right: 2px solid #808080;
+  border-radius: 5px;
+  overflow: hidden;
+  width: calc(33.33% - 30px); /* Adjust width to account for increased gap */
+  min-width: 340px;
+  text-align: left;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.thumb-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.thumb-card a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+.thumb-card img {
+  width: 100%;
+  height: auto; /* Let the height adjust based on the 1280:640 ratio */
+  aspect-ratio: 1280 / 640; /* Set the desired aspect ratio */
+  object-fit: cover;
+  border-bottom: 1px solid #c0c0c0;
+  display: block;
+}
+
+.thumb-card p {
+  margin: 8px;
+  font-size: 14px;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;     /* Hide overflowing text */
+  text-overflow: ellipsis; /* Show an ellipsis (...) to indicate overflow */
+}
