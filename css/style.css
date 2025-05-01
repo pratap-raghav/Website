@@ -588,13 +588,13 @@ a{
 }
 @media (max-width: 800px) {
   .quickStart {
-    left: 30% !important;
+    left: 30%;
   }
   .aboutMe {
-    left: 31.5% !important;
+    left: 31.5%;
   }
   .projects {
-    left: 33% !important;
+    left: 33%;
   }
 }
 .projects .titleBar {
