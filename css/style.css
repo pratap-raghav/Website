@@ -776,21 +776,21 @@ a{
 }
 
 #icons1 {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
 }
 
 
 #icons2 {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
 }
 
 
 #icons3 {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
 }
