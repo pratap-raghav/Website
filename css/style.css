@@ -77,10 +77,9 @@ a{
 }
 
 
-@media screen and (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
+@media screen and (max-device-width: 1024px) and (orientation: portrait)  {
   .quickStart {
     left: 30% !important;
-    transform: translateX(-20%) !important;
   }
 }
 
@@ -375,10 +374,9 @@ a{
 
 
 
-@media screen and (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
+@media screen and (max-device-width: 1024px) and (orientation: portrait){
   .aboutMe {
     left: 30% !important;
-    transform: translateX(-20%) !important;
   }
 }
 
@@ -603,10 +601,9 @@ a{
 }
 
 
-@media screen and (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
+@media screen and (max-device-width: 1024px) and (orientation: portrait) {
   .projects {
     left: 30% !important;
-    transform: translateX(-20%) !important;
   }
 }
 
