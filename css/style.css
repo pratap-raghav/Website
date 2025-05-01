@@ -849,7 +849,7 @@ a{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   align-items: center;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 40px;
   width: 440px;
