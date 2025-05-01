@@ -75,7 +75,7 @@ a{
   z-index: 10;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
-@media screen and (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
+@media (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
   .quickStart {
     left: 30%;
   }
@@ -372,7 +372,7 @@ a{
 
 
 
-@media screen and (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
+@media (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
   .aboutMe {
     left: 31.5%;
   }
@@ -598,7 +598,7 @@ a{
 }
 
 
-@media screen and (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
+@media (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
   .projects {
     left: 33%;
   }
