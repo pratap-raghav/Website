@@ -66,7 +66,7 @@ a{
 
 .quickStart {
   top: 10%;
-  left: 20%;
+  left: 30%;
   position: absolute;
   display: inline;
   width: 750px;
@@ -74,11 +74,6 @@ a{
   transform: translate(-10px, -1px);
   z-index: 10;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-}
-@media (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
-  .quickStart {
-    left: 30%;
-  }
 }
 
 .quickStart .titleBar {
@@ -359,7 +354,7 @@ a{
 
 .aboutMe {
   top: 12%;
-  left: 21.5%;
+  left: 31.5%;
   position: absolute;
   display: none;
   /* display: inline; */
@@ -370,13 +365,6 @@ a{
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
-
-
-@media (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
-  .aboutMe {
-    left: 31.5%;
-  }
-}
 .aboutMe .titleBar {
   background: linear-gradient(#0058ee, #3593ff 4%, #288eff 6%, #127dff 8%, #036ffc 10%, #0262ee 14%, #0057e5 20%, #0054e3 24%, #0055eb 56%, #005bf5 66%, #026afe 76%, #0062ef 86%, #0052d6 92%, #0040ab 94%, #003092);
   background-color: #5c5c5c;
@@ -563,22 +551,6 @@ a{
   margin-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #projectItem {
   display: none;
 }
@@ -586,7 +558,7 @@ a{
 
 .projects {
   top: 14%;
-  left: 23%;
+  left: 33%;
   position: absolute;
   display: none;
   /* display: inline; */
@@ -596,15 +568,6 @@ a{
   z-index: 12;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
-
-
-@media (max-device-width: 1024px) and (orientation: portrait) and (pointer: coarse) {
-  .projects {
-    left: 33%;
-  }
-}
-
-
 
 .projects .titleBar {
   background: linear-gradient(#0058ee, #3593ff 4%, #288eff 6%, #127dff 8%, #036ffc 10%, #0262ee 14%, #0057e5 20%, #0054e3 24%, #0055eb 56%, #005bf5 66%, #026afe 76%, #0062ef 86%, #0052d6 92%, #0040ab 94%, #003092);
